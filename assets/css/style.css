@@ -4,8 +4,22 @@
     box-sizing: border-box;
 }
 
+header{
+    height: 10vh;
+}
 main{
     height: 80vh;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: #373737;
+}
+footer p{
+    margin: 0;
+    color: #fff;
 }
 .title-lista{
     text-align: center;
@@ -77,3 +91,5 @@ main{
 .linha-itens{
     display: flex;
 }
+
+
