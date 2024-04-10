@@ -4,6 +4,12 @@ const listaItens = document.querySelector('#lista-itens');
 const inputNewProduct = document.querySelector('#input-create-product');
 const primeiroItem = document.querySelector('.item-produto');
 const linhaItem = document.querySelector('.linha-itens');
+const anoAtual = document.querySelector('#ano-atual');
+const data = new Date();
+
+anoAtual.innerHTML = data.getFullYear();
+
+
 
 
 

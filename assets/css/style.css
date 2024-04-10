@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
 }
 
 header{
@@ -21,9 +22,19 @@ footer p{
     margin: 0;
     color: #fff;
 }
+.container-title{
+    width: 80%;
+    border-bottom: 2px solid #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
+}
 .title-lista{
     text-align: center;
-    margin: 40px 0;
+    margin: 30px 0;
+}
+.buttons-lista{
 }
 .btn-add, .btn-rem{
     border-radius: 8px;
@@ -31,10 +42,14 @@ footer p{
     margin: 0px 5px;
     border: none;
 }
+#hero{
+    height: 100%;
+    width: 100%;
+}
 .container-lista{
     background-color: #f7f7f7;
     margin: 20px 0;
-    height: 500px;
+    height: 80%;
     width: 100%;
     border-radius: 8px;
     overflow: auto;
@@ -46,7 +61,7 @@ footer p{
     display: flex;
     margin: 0 auto;
     justify-content: center;
-    font-size: 12px;
+    font-size: 14px;
 }
 .input-produto{
     width: 30%;
